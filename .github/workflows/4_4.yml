@@ -1,0 +1,16 @@
+name: 每月4日4点推送
+
+on:
+  schedule:
+    - cron: '0 4 4 * ?'   #Runs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: run start.sh
+        run: |
+          python ./csdn_crawler.py ${{ secrets.PUSH_TOKEN }}
