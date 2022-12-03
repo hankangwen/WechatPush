@@ -1,4 +1,4 @@
-name: 定时推送
+name: 定时推送Before
 
 on:
   schedule:
