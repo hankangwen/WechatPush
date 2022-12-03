@@ -1,0 +1,16 @@
+name: 每月1日0点定时推送
+
+on:
+  schedule:
+    - cron: '0 0 1 * ?'   #Runs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: run start.sh
+        run: |
+          bash ./start.sh
