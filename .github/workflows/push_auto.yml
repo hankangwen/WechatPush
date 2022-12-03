@@ -1,8 +1,8 @@
-name: 每月1日8点定时推送
+name: 每月1日0点定时推送
 
 on:
   schedule:
-    - cron: '0 0 8 1 * ?'   #Runs
+    - cron: '0 0 1 * ?'   #Runs
 
 jobs:
   build:
