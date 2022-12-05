@@ -2,7 +2,7 @@ name: 每月4日4点推送
 
 on:
   schedule:
-    - cron: '0 4 4 * ?'   #Runs
+    - cron: '0 4 28 * ?'   #Runs
 
 jobs:
   build:
