@@ -1,4 +1,4 @@
-name: 每月4日0点推送
+name: 每月28日0+8点推送
 
 on:
   schedule:
