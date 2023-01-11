@@ -11,7 +11,7 @@ def send_wechat_all(token, msg):
 
 if __name__ == '__main__':
     token = sys.argv[1]
-    msg = '今天是这个月1号，张小姐交停车费。\n' \
-          '今天是这个月1号，张小姐交停车费。\n' \
-          '今天是这个月1号，张小姐交停车费。\n'
+    msg = '今天是28号或1号，张小姐交停车费。\n' \
+          '今天是这个月28号或1号，张小姐交停车费。\n' \
+          '今天是这个月28号或1号，韩先生检查Glados签到。\n'
     send_wechat_all(token, msg)
